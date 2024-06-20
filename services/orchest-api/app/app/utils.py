@@ -310,7 +310,7 @@ def get_jupyter_server_image_to_use() -> str:
     else:
         # ctr needs full image name, including the registry
         # (even docker hub) to pull
-        return f"docker.io/orchest/jupyter-server:{CONFIG_CLASS.ORCHEST_VERSION}"
+        return f"docker.io/taptarget/jupyter-server:{CONFIG_CLASS.ORCHEST_VERSION}"
 
 
 def get_registry_ip() -> str:

@@ -11,9 +11,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/orchest/orchest/services/orchest-controller/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/orchest/orchest/services/orchest-controller/pkg/client/informers/externalversions/internalinterfaces"
-	orchest "github.com/orchest/orchest/services/orchest-controller/pkg/client/informers/externalversions/orchest"
+	versioned "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/informers/externalversions/internalinterfaces"
+	orchest "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/informers/externalversions/orchest"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

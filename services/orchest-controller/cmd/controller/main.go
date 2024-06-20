@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/orchest/orchest/services/orchest-controller/cmd/controller/cmd"
+	"github.com/TapTarget/TTO/services/orchest-controller/cmd/controller/cmd"
 )
 
 func main() {

@@ -7,7 +7,7 @@ Copyright 2022 The orchest Authors.
 package v1alpha1
 
 import (
-	internalinterfaces "github.com/orchest/orchest/services/orchest-controller/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

@@ -9,8 +9,8 @@ package v1alpha1
 import (
 	"net/http"
 
-	v1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/apis/orchest/v1alpha1"
-	"github.com/orchest/orchest/services/orchest-controller/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/apis/orchest/v1alpha1"
+	"github.com/TapTarget/TTO/services/orchest-controller/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

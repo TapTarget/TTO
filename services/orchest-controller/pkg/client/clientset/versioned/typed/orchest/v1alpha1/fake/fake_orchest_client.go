@@ -7,7 +7,7 @@ Copyright 2022 The orchest Authors.
 package fake
 
 import (
-	v1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/client/clientset/versioned/typed/orchest/v1alpha1"
+	v1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/clientset/versioned/typed/orchest/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

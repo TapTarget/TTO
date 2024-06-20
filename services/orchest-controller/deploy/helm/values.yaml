@@ -5,7 +5,7 @@ service:
 image:
   pullPolicy: IfNotPresent
   registry: docker.io
-  name: orchest/orchest-controller
+  name: taptarget/orchest-controller
 
 controller:
   nodeSelector: {}

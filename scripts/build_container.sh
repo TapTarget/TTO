@@ -383,7 +383,7 @@ do
 
         build_ctx=$DIR/../services/orchest-controller
         build=(docker build --platform linux/amd64 --progress=plain \
-            -t "orchest/orchest-controller:$BUILD_TAG" \
+            -t "taptarget/orchest-controller:$BUILD_TAG" \
             --no-cache=$NO_CACHE \
             -f $DIR/../services/orchest-controller/Dockerfile \
             --build-arg ORCHEST_VERSION="$ORCHEST_VERSION"

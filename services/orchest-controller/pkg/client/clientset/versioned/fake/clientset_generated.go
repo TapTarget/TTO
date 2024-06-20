@@ -7,9 +7,9 @@ Copyright 2022 The orchest Authors.
 package fake
 
 import (
-	clientset "github.com/orchest/orchest/services/orchest-controller/pkg/client/clientset/versioned"
-	orchestv1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/client/clientset/versioned/typed/orchest/v1alpha1"
-	fakeorchestv1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/client/clientset/versioned/typed/orchest/v1alpha1/fake"
+	clientset "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/clientset/versioned"
+	orchestv1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/clientset/versioned/typed/orchest/v1alpha1"
+	fakeorchestv1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/client/clientset/versioned/typed/orchest/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

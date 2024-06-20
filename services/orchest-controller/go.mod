@@ -1,4 +1,4 @@
-module github.com/orchest/orchest/services/orchest-controller
+module github.com/TapTarget/TTO/services/orchest-controller
 
 go 1.18
 

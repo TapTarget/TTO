@@ -9,7 +9,7 @@ RUN apt-get update && \
 	mv linux-amd64/helm /usr/local/bin/helm
 
 ENV GO111MODULE on
-WORKDIR /go/src/github.com/orchest/orchest/services/orchest-controller
+WORKDIR /go/src/github.com/TapTarget/TTO/services/orchest-controller
 ADD . .
 
 RUN	make controller
@@ -24,7 +24,7 @@ WORKDIR /usr/bin
 
 COPY --from=build-env /usr/local/bin/helm /usr/local/bin/helm
 
-COPY --from=build-env /go/src/github.com/orchest/orchest/services/orchest-controller/bin/controller .
+COPY --from=build-env /go/src/github.com/TapTarget/TTO/services/orchest-controller/bin/controller .
 
 COPY ./deploy /deploy
 

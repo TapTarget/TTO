@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"reflect"
 
-	orchestv1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/apis/orchest/v1alpha1"
-	"github.com/orchest/orchest/services/orchest-controller/pkg/utils"
+	orchestv1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/apis/orchest/v1alpha1"
+	"github.com/TapTarget/TTO/services/orchest-controller/pkg/utils"
 	"github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"
 	netsv1 "k8s.io/api/networking/v1"

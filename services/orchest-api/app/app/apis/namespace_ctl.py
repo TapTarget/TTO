@@ -79,10 +79,10 @@ class OrchestImagesToPrePull(Resource):
             CONFIG_CLASS.IMAGE_BUILDER_IMAGE,
             _config.ARGO_EXECUTOR_IMAGE,
             _config.CONTAINER_RUNTIME_IMAGE,
-            f"docker.io/orchest/jupyter-server:{CONFIG_CLASS.ORCHEST_VERSION}",
-            f"docker.io/orchest/base-kernel-py:{CONFIG_CLASS.ORCHEST_VERSION}",
-            f"docker.io/orchest/jupyter-enterprise-gateway:{CONFIG_CLASS.ORCHEST_VERSION}",  # noqa
-            f"docker.io/orchest/session-sidecar:{CONFIG_CLASS.ORCHEST_VERSION}",
+            f"docker.io/taptarget/jupyter-server:{CONFIG_CLASS.ORCHEST_VERSION}",
+            f"docker.io/taptarget/base-kernel-py:{CONFIG_CLASS.ORCHEST_VERSION}",
+            f"docker.io/taptarget/jupyter-enterprise-gateway:{CONFIG_CLASS.ORCHEST_VERSION}",  # noqa
+            f"docker.io/taptarget/session-sidecar:{CONFIG_CLASS.ORCHEST_VERSION}",
         ]
         pre_pull_orchest_images = {"pre_pull_images": pre_pull_orchest_images}
 

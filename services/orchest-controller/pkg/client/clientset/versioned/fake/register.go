@@ -7,7 +7,7 @@ Copyright 2022 The orchest Authors.
 package fake
 
 import (
-	orchestv1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/apis/orchest/v1alpha1"
+	orchestv1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/apis/orchest/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

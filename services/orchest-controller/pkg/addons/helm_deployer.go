@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	orchestv1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/apis/orchest/v1alpha1"
+	orchestv1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/apis/orchest/v1alpha1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/orchest/orchest/services/orchest-controller/pkg/helm"
+	"github.com/TapTarget/TTO/services/orchest-controller/pkg/helm"
 )
 
 type HelmDeployer struct {

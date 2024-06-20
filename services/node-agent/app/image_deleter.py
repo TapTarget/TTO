@@ -33,7 +33,7 @@ def is_custom_jupyter_image(name: str) -> bool:
 
 
 def is_orchest_image(name: str) -> bool:
-    return name.startswith("orchest/") or name.startswith("docker.io/orchest")
+    return name.startswith("orchest/") or name.startswith("docker.io/taptarget")
 
 
 def _get_orchest_version() -> Optional[str]:

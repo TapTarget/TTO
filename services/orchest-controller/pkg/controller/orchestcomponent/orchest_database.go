@@ -3,9 +3,9 @@ package orchestcomponent
 import (
 	"context"
 
-	orchestv1alpha1 "github.com/orchest/orchest/services/orchest-controller/pkg/apis/orchest/v1alpha1"
-	"github.com/orchest/orchest/services/orchest-controller/pkg/controller"
-	"github.com/orchest/orchest/services/orchest-controller/pkg/utils"
+	orchestv1alpha1 "github.com/TapTarget/TTO/services/orchest-controller/pkg/apis/orchest/v1alpha1"
+	"github.com/TapTarget/TTO/services/orchest-controller/pkg/controller"
+	"github.com/TapTarget/TTO/services/orchest-controller/pkg/utils"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	kerrors "k8s.io/apimachinery/pkg/api/errors"
