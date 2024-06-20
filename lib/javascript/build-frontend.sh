@@ -2,8 +2,6 @@
 set -e
 
 NODE_MODULES_PATH=node_modules
-BIN_PATH="$(npm bin)"
-PATH="$BIN_PATH:$PATH"
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 
