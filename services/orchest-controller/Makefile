@@ -1,11 +1,11 @@
 
-TAG:=orchest/orchest-controller
+TAG:=taptarget/orchest-controller
 
 TOOLS_DIR := $(PWD)/.cache/tools
 
 CONTROLLER_GEN=$(TOOLS_DIR)/controller-gen
 
-GO_PROJECT=github.com/orchest/orchest/services/orchest-controller
+GO_PROJECT=github.com/TapTarget/TTO/services/orchest-controller
 
 NAMESPACE := ${if ${NAMESPACE},${NAMESPACE},orchest}
 
