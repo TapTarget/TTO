@@ -24,5 +24,5 @@ echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-
 
 for IMG in ${IMGS[@]}
 do
-    docker push "orchest/$IMG:$BUILD_TAG"
+    docker push "taptarget/$IMG:$BUILD_TAG"
 done
