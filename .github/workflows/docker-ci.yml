@@ -123,16 +123,3 @@ jobs:
         env:
           DOCKERHUB_REPOSITORY: taptarget/auth-server
           README_FILEPATH: services/auth-server/README.md
-
-  dispatch-orchest-ami-build:
-    needs: buildpush
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Dispatch
-        run: >
-          curl -X POST
-          -u "${{secrets.PAT_USER}}:${{secrets.PAT_TOKEN}}"
-          -H "Accept: application/vnd.github.v3+json"
-          https://api.github.com/repos/orchest/cloud-infra/actions/workflows/build_amis.yml/dispatches
-          -d '{"ref":"master"}'
