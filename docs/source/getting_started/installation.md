@@ -157,7 +157,7 @@ of those things to happen).
 Now that you are using an Argo Workflows set-up that is not managed by the Orchest Controller, you
 need to make sure that the right set of permissions are configured for Orchest to work as expected.
 Check out the permissions that the Orchest Controller sets for Argo
-[here](https://github.com/orchest/orchest/tree/v2022.08.8/services/orchest-controller/deploy/thirdparty/argo-workflows).
+[here](https://github.com/TapTarget/TTO/tree/v2022.08.8/services/orchest-controller/deploy/thirdparty/argo-workflows).
 In addition, Orchest makes use of Argo's [`Container Set`](https://argoproj.github.io/argo-workflows/container-set-template/) in a single-node setting
 (i.e. you have `singleNode: true` in the `OrchestCluster` CR Object) which requires the use of the
 [`Emissary Executor`](https://argoproj.github.io/argo-workflows/workflow-executors/#emissary-emissary).
@@ -187,7 +187,7 @@ install in another namespace you can use tools like [yq](https://github.com/mike
 change the specified namespace in `orchest-controller.yaml` and `example-orchestcluster.yaml`.
 
 ```bash
-# Get the latest available Orchest version at https://github.com/orchest/orchest/releases
+# Get the latest available Orchest version at https://github.com/TapTarget/TTO/releases
 # Example:
 export VERSION="v2023.01.8"
 
@@ -196,7 +196,7 @@ kubectl create ns orchest
 
 # Deploy the Orchest Operator
 kubectl apply \
-  -f "https://github.com/orchest/orchest/releases/download/${VERSION}/orchest-controller.yaml"
+  -f "https://github.com/TapTarget/TTO/releases/download/${VERSION}/orchest-controller.yaml"
 
 # Apply an OrchestCluster Custom Resource
 # NOTE: You can also first download the example manifest so that you
@@ -205,7 +205,7 @@ kubectl apply \
 # configured ingress on your cluster) through the
 # `controller.orchest.io/deploy-ingress` annotation.
 kubectl apply \
-  -f "https://github.com/orchest/orchest/releases/download/${VERSION}/example-orchestcluster.yaml"
+  -f "https://github.com/TapTarget/TTO/releases/download/${VERSION}/example-orchestcluster.yaml"
 ```
 
 In case you want to configure the Orchest Cluster, you can patch the created `OrchestCluster`.

@@ -14,7 +14,7 @@ class Config:
     CLOUD = _config.CLOUD
     ORCHEST_API_ADDRESS = _config.ORCHEST_API_ADDRESS
     CLOUD_URL = "https://cloud.orchest.io"
-    GITHUB_URL = "https://github.com/orchest/orchest"
+    GITHUB_URL = "https://github.com/TapTarget/TTO"
     DOCUMENTATION_URL = "https://docs.orchest.io"
     VIDEOS_URL = "https://www.orchest.io/video-tutorials"
     ORCHEST_CLOUD_RESERVED_USER = "orchest_cloud_reserved_admin"

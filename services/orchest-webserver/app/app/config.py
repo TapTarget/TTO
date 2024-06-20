@@ -36,9 +36,9 @@ class Config:
             "https://join.slack.com/t/orchest/shared_invite/"
             "zt-g6wooj3r-6XI8TCWJrXvUnXKdIKU_8w"
         ),
-        "github": "https://github.com/orchest/orchest",
+        "github": "https://github.com/TapTarget/TTO",
         "website": "https://www.orchest.io",
-        "orchest_examples_repo": "https://github.com/orchest/orchest-examples",
+        "orchest_examples_repo": "https://github.com/TapTarget/TTO-examples",
         "orchest_examples_json": (
             "https://raw.githubusercontent.com/orchest/orchest-examples/main/"
             "orchest_examples_data.json"

@@ -79,7 +79,7 @@ All telemetry is anonymized through the `TELEMETRY_UUID`. We do not store any IP
 information on our servers.
 ```
 
-[our codebase]: https://github.com/orchest/orchest/blob/4dc2b4fb6a4766de7ff4cb7d3096a56b0a5c5f6c/lib/python/orchest-internals/_orchest/internals/analytics.py#L42-L136
+[our codebase]: https://github.com/TapTarget/TTO/blob/4dc2b4fb6a4766de7ff4cb7d3096a56b0a5c5f6c/lib/python/orchest-internals/_orchest/internals/analytics.py#L42-L136
 
 (configuration-jupyterlab)=
 

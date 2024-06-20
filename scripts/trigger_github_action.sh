@@ -13,6 +13,6 @@ else
      BUILD_TAG=$1
 fi
 
-curl -X POST https://api.github.com/repos/orchest/orchest/dispatches \
+curl -X POST https://api.github.com/repos/TapTarget/TTO/dispatches \
      -u $GITHUB_USERNAME:$GITHUB_API_KEY \
      --data '{"event_type": "manual-trigger", "client_payload": {"build_tag": "'$BUILD_TAG'"}}'

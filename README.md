@@ -50,7 +50,7 @@ No frameworks. No YAML. Just write your data processing code directly in **Pytho
 
 Missing a feature? Have a look at [our public roadmap](https://github.com/orgs/orchest/projects/1)
 to see what the team is working on in the short and medium term.
-Still missing it? Please [let us know by opening an issue](https://github.com/orchest/orchest/issues/new/choose)!
+Still missing it? Please [let us know by opening an issue](https://github.com/TapTarget/TTO/issues/new/choose)!
 
 ## Examples
 
@@ -61,9 +61,9 @@ Get started with an example project:
 - [Run dbt in Orchest for a dbt + Python transform pipeline](https://github.com/ricklamers/orchest-dbt)
 - [Use PySpark in Orchest](https://github.com/ricklamers/orchest-hello-spark)
 
-👉 Check out the full list of [example projects](https://github.com/orchest/orchest-examples).
+👉 Check out the full list of [example projects](https://github.com/TapTarget/TTO-examples).
 
-[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest_large.svg)](https://cloud.orchest.io/)
+[![Open in Orchest](https://github.com/TapTarget/TTO-examples/raw/main/imgs/open_in_orchest_large.svg)](https://cloud.orchest.io/)
 
 ## Installation
 
@@ -91,7 +91,7 @@ Contributions are more than welcome! Please see our [contributor
 guides](https://docs.orchest.io/en/stable/development/contributing.html) for more details.
 
 Alternatively, you can submit your pipeline to the curated list of [Orchest
-examples](https://github.com/orchest/orchest-examples) that are automatically loaded in every
+examples](https://github.com/TapTarget/TTO-examples) that are automatically loaded in every
 Orchest deployment! 🔥
 
 ## Contributors

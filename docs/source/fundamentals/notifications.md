@@ -37,7 +37,7 @@ To create a webhook, navigate to "Notification settings" in {ref}`Orchest settin
 
 (You can read [the source code of the webhook schema]).
 
-[the source code of the webhook schema]: https://github.com/orchest/orchest/blob/v2022.06.2/services/orchest-api/app/app/schema.py#L885-L905
+[the source code of the webhook schema]: https://github.com/TapTarget/TTO/blob/v2022.06.2/services/orchest-api/app/app/schema.py#L885-L905
 
 (secure_webhook)=
 

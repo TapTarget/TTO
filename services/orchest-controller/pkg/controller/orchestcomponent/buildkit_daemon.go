@@ -68,7 +68,7 @@ func getBuildKitDaemonDaemonset(metadata metav1.ObjectMeta,
 	runContainerdPath := "/run/containerd"
 	varLibContainerdPath := "/var/lib/containerd"
 
-	// TODO: use distribution from https://github.com/orchest/orchest/pull/1267.
+	// TODO: use distribution from https://github.com/TapTarget/TTO/pull/1267.
 	if strings.Contains(socketPath, "microk8s") {
 		runContainerdPath = "/var/snap/microk8s/common/run/containerd"
 		varLibContainerdPath = "/var/snap/microk8s/common/var/lib/containerd"

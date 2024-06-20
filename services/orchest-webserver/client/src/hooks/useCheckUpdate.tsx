@@ -128,7 +128,7 @@ export const useCheckUpdate = () => {
           </Typography>
           <Typography variant="body2" sx={{ marginTop: 4 }}>
             {`Check out the `}
-            <a href="https://github.com/orchest/orchest/releases/latest">
+            <a href="https://github.com/TapTarget/TTO/releases/latest">
               release notes
             </a>
             .

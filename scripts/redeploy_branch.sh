@@ -55,7 +55,7 @@ AUTH_USERS_DUMP=$(minikube kubectl -- exec -it -n orchest deploy/orchest-databas
 
 orchest uninstall
 
-TAG=$(curl --silent https://api.github.com/repos/orchest/orchest/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+TAG=$(curl --silent https://api.github.com/repos/TapTarget/TTO/releases/latest | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 echo "Building images locally with tag ${TAG}..."
 eval $(minikube -p minikube docker-env)
 bash "${DIR}/build_container.sh" -m -t ${TAG} -o ${TAG}

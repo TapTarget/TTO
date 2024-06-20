@@ -59,7 +59,7 @@ To keep Orchest's disk footprint to a minimal you can use the following best pra
 ## How to use a GPU in Orchest?
 
 Currently GPU support is not yet available. Coming soon! See
-[#1280](https://github.com/orchest/orchest/issues/1280).
+[#1280](https://github.com/TapTarget/TTO/issues/1280).
 
 (skip-notebook-cells)=
 
@@ -92,4 +92,4 @@ There are two ways to fix this issue:
 2. Use mamba (or conda) instead of pip to install your dependencies,
    which avoid this incompatibility.
 
-[which causes a known incompatibility]: https://github.com/orchest/orchest/issues/425
+[which causes a known incompatibility]: https://github.com/TapTarget/TTO/issues/425

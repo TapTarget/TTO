@@ -26,7 +26,7 @@ queue.
 
 #### Specifying custom images in the `OrchestCluster` CR
 
-Details can be found here: [PR #1205](https://github.com/orchest/orchest/pull/1205).
+Details can be found here: [PR #1205](https://github.com/TapTarget/TTO/pull/1205).
 
 In short, a custom image can be specified for an Orchest service. This image can have a custom
 registry, name and/or tag. When the custom image is specified in the `OrchestCluster` CR on

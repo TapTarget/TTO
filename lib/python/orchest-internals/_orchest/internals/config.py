@@ -136,4 +136,4 @@ DEFAULT_ENVIRONMENTS = [
 
 SIDECAR_PORT = 1111
 
-ORCHEST_UPDATE_INFO_URL = "https://api.github.com/repos/orchest/orchest/releases/latest"
+ORCHEST_UPDATE_INFO_URL = "https://api.github.com/repos/TapTarget/TTO/releases/latest"

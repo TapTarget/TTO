@@ -5,7 +5,7 @@
 
 ---
 
-Python package for interacting with [Orchest](https://github.com/orchest/orchest).
+Python package for interacting with [Orchest](https://github.com/TapTarget/TTO).
 
 ## Installation
 
@@ -24,7 +24,7 @@ started!
 ## Compatibility
 
 > We started maintaining this table since Orchest release
-> [`v2021.05.1`](https://github.com/orchest/orchest/releases/tag/v2021.05.1).
+> [`v2021.05.1`](https://github.com/TapTarget/TTO/releases/tag/v2021.05.1).
 
 | Python SDK version | Orchest version | Compatible? |
 | ------------------ | --------------- | ----------- |

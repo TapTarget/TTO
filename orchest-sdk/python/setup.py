@@ -21,13 +21,13 @@ setuptools.setup(
     keywords="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/orchest/orchest",
+    url="https://github.com/TapTarget/TTO",
     project_urls={
         "Documentation": (
             "https://docs.orchest.io/en/stable/fundamentals/sdk/index.html"
         ),
         "Source Code": (
-            "https://github.com/orchest/orchest/tree/master/orchest-sdk/python"
+            "https://github.com/TapTarget/TTO/tree/master/orchest-sdk/python"
         ),
     },
     classifiers=[

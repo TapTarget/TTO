@@ -149,7 +149,7 @@ def SilenceExceptions(cls):
     },
     cls=ClickHelpCategories,
 )
-@click.version_option(version=__version__, prog_name="orchest-cli")
+@click.version_option(version=__version__, prog_name="tto-cli")
 def cli():
     """The Orchest CLI to manage your Orchest Cluster on Kubernetes.
 

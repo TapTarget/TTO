@@ -90,7 +90,7 @@ html_theme_options = {
     "navbar_center": ["navbar-nav"],
     "navbar_end": ["theme-switcher", "navbar-icon-links.html", "search-field.html"],
     "show_toc_level": 1,
-    "github_url": "https://github.com/orchest/orchest",
+    "github_url": "https://github.com/TapTarget/TTO",
     "twitter_url": "https://twitter.com/orchestofficial",
     "logo": {
         "image_light": "img/logo-light.png",

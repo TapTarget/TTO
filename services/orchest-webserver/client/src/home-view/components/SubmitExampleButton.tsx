@@ -5,7 +5,7 @@ import React from "react";
 export const SubmitExampleButton = (props: ButtonProps) => {
   const onClick = () =>
     window.open(
-      "https://github.com/orchest/orchest-examples",
+      "https://github.com/TapTarget/TTO-examples",
       "_blank",
       "noopener,noreferrer"
     );

@@ -178,7 +178,7 @@ jobs:
           rm -rf .runner
           ./config.sh remove
 
-          ./config.sh --url https://github.com/orchest/orchest \
+          ./config.sh --url https://github.com/TapTarget/TTO \
             --token $RUNNER_TOKEN \
             --ephemeral \
             --labels $WORKER_LABELS \

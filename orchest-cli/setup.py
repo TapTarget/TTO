@@ -10,19 +10,19 @@ about = {}
 exec(version, about)
 
 setuptools.setup(
-    name="orchest-cli",
-    description="CLI for Orchest",
-    keywords="orchest",
+    name="tto-cli",
+    description="CLI for TTO",
+    keywords="TTO",
     long_description=long_description,
     long_description_content_type="text/markdown",
     version=about["__version__"],
     license="Apache 2.0",
     author="Rick Lamers",
     author_email="rick@orchest.io",
-    url="https://github.com/orchest/orchest",
+    url="https://github.com/TapTarget/TTO",
     project_urls={
         "Documentation": ("https://docs.orchest.io/en/stable/"),
-        "Source Code": ("https://github.com/orchest/orchest/tree/master/orchest-cli"),
+        "Source Code": ("https://github.com/TapTarget/TTO/tree/master/orchest-cli"),
     },
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -42,7 +42,7 @@ setuptools.setup(
     ],
     entry_points={
         "console_scripts": [
-            "orchest=orchestcli.cli:cli",
+            "tto=orchestcli.cli:cli",
         ],
     },
     # It is reasonable to follow:

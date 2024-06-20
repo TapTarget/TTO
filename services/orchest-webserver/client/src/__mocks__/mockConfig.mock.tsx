@@ -26,10 +26,10 @@ const DEFAULT_CONFIG: OrchestConfig = {
   ORCHEST_SOCKETIO_ENV_IMG_BUILDING_NAMESPACE: "/environment_image_builds",
   ORCHEST_SOCKETIO_JUPYTER_IMG_BUILDING_NAMESPACE: "/jupyter_image_builds",
   ORCHEST_WEB_URLS: {
-    github: "https://github.com/orchest/orchest",
+    github: "https://github.com/TapTarget/TTO",
     orchest_examples_json:
       "https://raw.githubusercontent.com/orchest/orchest-examples/main/orchest_examples_data.json",
-    orchest_examples_repo: "https://github.com/orchest/orchest-examples",
+    orchest_examples_repo: "https://github.com/TapTarget/TTO-examples",
     orchest_update_info_json:
       "https://update-info.orchest.io/api/orchest/update-info/v3?version=v2022.04.0",
     readthedocs: "https://docs.orchest.io/en/stable",

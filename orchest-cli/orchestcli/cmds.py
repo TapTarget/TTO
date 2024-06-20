@@ -1806,7 +1806,7 @@ def _is_calver_version(version: str) -> bool:
 
 
 def _fetch_latest_available_version() -> t.Optional[str]:
-    url = "https://api.github.com/repos/orchest/orchest/releases/latest"
+    url = "https://api.github.com/repos/TapTarget/TTO/releases/latest"
     resp = requests.get(url, timeout=5)
 
     if resp.status_code == 200:
@@ -1818,7 +1818,7 @@ def _fetch_latest_available_version() -> t.Optional[str]:
 
 def _fetch_orchest_controller_manifests(version: str, manifest_file_name: str) -> str:
     url = (
-        "https://github.com/orchest/orchest"
+        "https://github.com/TapTarget/TTO"
         f"/releases/download/{version}/{manifest_file_name}"
     )
     resp = requests.get(url, timeout=10)

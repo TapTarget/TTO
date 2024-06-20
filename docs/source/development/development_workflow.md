@@ -238,7 +238,7 @@ sudo minikube tunnel
 
 Does everything look good? _Awesome!_ You're all set up and ready to start coding now! 🎉
 
-Have a look at our {ref}`best practices <best practices>` and our [GitHub](https://github.com/orchest/orchest/issues)
+Have a look at our {ref}`best practices <best practices>` and our [GitHub](https://github.com/TapTarget/TTO/issues)
 to find interesting issues to work on.
 
 ## Redeploying Orchest after code changes

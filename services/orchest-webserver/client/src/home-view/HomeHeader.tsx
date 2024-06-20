@@ -29,7 +29,7 @@ export const HomeHeader = ({ scrolled }: HomeHeaderProps) => {
       >
         <Stack direction="row" spacing={2} flex={1} alignItems="center">
           <HomeOutlined fontSize="large" />
-          <Typography variant="h4">Home</Typography>
+          <Typography variant="h4">TapTarget Orchest</Typography>
         </Stack>
         <Stack
           direction="row"
