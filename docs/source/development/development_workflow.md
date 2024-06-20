@@ -405,7 +405,7 @@ bash scripts/redeploy_orchest_service_on_minikube.sh orchest-api
 
 # Remove an image from minikube. Can be useful to force a pull from
 # a registry.
-bash scripts/remove_image_from_minikube.sh orchest/orchest-api
+bash scripts/remove_image_from_minikube.sh taptarget/orchest-api
 
 # Build an image with a given tag, on all nodes.
 bash scripts/build_image_in_minikube.sh orchest-api v2022.03.7

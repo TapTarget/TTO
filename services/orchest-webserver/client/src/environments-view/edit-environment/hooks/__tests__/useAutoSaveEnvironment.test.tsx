@@ -50,7 +50,7 @@ describe("useAutoSaveEnvironment", () => {
     rerender({
       environment: {
         ...mockEnvironment,
-        base_image: "orchest/base-kernel-r",
+        base_image: "taptarget/base-kernel-r",
         language: "r",
       },
     });

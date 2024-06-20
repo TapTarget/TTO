@@ -168,7 +168,7 @@ We will explain how to add a custom service by following an example: creating yo
 
 As was said in the previous section, we will create a new environment containing streamlit, which we
 will then configure as a service. So first, create an {ref}`environment <environments>` and install
-the needed dependencies (in this example I am using `orchest/base-kernel-py` as the base image) in
+the needed dependencies (in this example I am using `taptarget/base-kernel-py` as the base image) in
 the _set-up script_:
 
 ```bash

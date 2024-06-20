@@ -251,7 +251,7 @@ def _get_session_sidecar_deployment_manifest(
                         {
                             "name": metadata["name"],
                             "image": (
-                                "orchest/session-sidecar:"
+                                "taptarget/session-sidecar:"
                                 + CONFIG_CLASS.ORCHEST_VERSION
                             ),
                             # NOTE: It would be a good idea to increase
@@ -794,7 +794,7 @@ def _get_jupyter_enterprise_gateway_deployment_service_manifest(
                         {
                             "name": metadata["name"],
                             "image": (
-                                "orchest/jupyter-enterprise-gateway:"
+                                "taptarget/jupyter-enterprise-gateway:"
                                 + CONFIG_CLASS.ORCHEST_VERSION
                             ),
                             "resources": {

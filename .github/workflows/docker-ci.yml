@@ -67,61 +67,61 @@ jobs:
       - name: Push README files to DockerHub celery-worker
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/celery-worker
+          DOCKERHUB_REPOSITORY: taptarget/celery-worker
           README_FILEPATH: services/orchest-api/README.md
 
       - name: Push README files to DockerHub base-kernel-r
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/base-kernel-r
+          DOCKERHUB_REPOSITORY: taptarget/base-kernel-r
           README_FILEPATH: services/base-images/base-kernel-r/README.md
 
       - name: Push README files to DockerHub base-kernel-julia
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/base-kernel-julia
+          DOCKERHUB_REPOSITORY: taptarget/base-kernel-julia
           README_FILEPATH: services/base-images/base-kernel-julia/README.md
 
       - name: Push README files to DockerHub base-kernel-javascript
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/base-kernel-javascript
+          DOCKERHUB_REPOSITORY: taptarget/base-kernel-javascript
           README_FILEPATH: services/base-images/base-kernel-javascript/README.md
 
       - name: Push README files to DockerHub base-kernel-py
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/base-kernel-py
+          DOCKERHUB_REPOSITORY: taptarget/base-kernel-py
           README_FILEPATH: services/base-images/base-kernel-py/README.md
 
       - name: Push README files to DockerHub orchest-api
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/orchest-api
+          DOCKERHUB_REPOSITORY: taptarget/orchest-api
           README_FILEPATH: services/orchest-api/README.md
 
       - name: Push README files to DockerHub jupyter-server
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/jupyter-server
+          DOCKERHUB_REPOSITORY: taptarget/jupyter-server
           README_FILEPATH: services/jupyter-server/README.md
 
       - name: Push README files to DockerHub jupyter-enterprise-gateway
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/jupyter-enterprise-gateway
+          DOCKERHUB_REPOSITORY: taptarget/jupyter-enterprise-gateway
           README_FILEPATH: services/jupyter-enterprise-gateway/README.md
 
       - name: Push README files to DockerHub orchest-webserver
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/orchest-webserver
+          DOCKERHUB_REPOSITORY: taptarget/orchest-webserver
           README_FILEPATH: services/orchest-webserver/README.md
 
       - name: Push README files to DockerHub auth-server
         uses: peter-evans/dockerhub-description@v2
         env:
-          DOCKERHUB_REPOSITORY: orchest/auth-server
+          DOCKERHUB_REPOSITORY: taptarget/auth-server
           README_FILEPATH: services/auth-server/README.md
 
   dispatch-orchest-ami-build:

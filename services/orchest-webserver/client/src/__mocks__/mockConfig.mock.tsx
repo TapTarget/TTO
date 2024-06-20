@@ -10,7 +10,7 @@ const DEFAULT_CONFIG: OrchestConfig = {
     "INTERCOM_USER_EMAIL",
   ],
   ENVIRONMENT_DEFAULTS: {
-    base_image: "orchest/base-kernel-py:v2022.04.0",
+    base_image: "taptarget/base-kernel-py:v2022.04.0",
     gpu_support: false,
     language: "python",
     name: "Python 3",

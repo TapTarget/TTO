@@ -163,7 +163,7 @@ Data passing in R
    showcasing **R** straight in Orchest (:ref:`how to import a project <how-to-import-a-project>`).
 
 The Orchest SDK works in **R** through the `reticulate <https://rstudio.github.io/reticulate/>`_ package.
-To use it, first create an Orchest environment which uses the ``orchest/base-kernel-r`` base image
+To use it, first create an Orchest environment which uses the ``taptarget/base-kernel-r`` base image
 (you can find more details :ref:`here <environments>`). Next you need to install ``reticulate`` and configure
 access to Python and the Orchest SDK. You can do so by having a script (let's say ``Install.r``) in
 your project with the following content:
