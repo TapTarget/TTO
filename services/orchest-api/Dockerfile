@@ -2,7 +2,7 @@ FROM tiangolo/meinheld-gunicorn-flask:python3.9
 LABEL maintainer="Orchest B.V. https://www.orchest.io"
 
 RUN apt-get update \
-    && apt-get install -y netcat
+    && apt-get install -y netcat-traditional
 
 # Get all requirements in place.
 COPY ./requirements.txt /orchest/services/orchest-api/
