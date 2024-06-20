@@ -1,18 +1,15 @@
 name: Release Orchest
 
-# Only trigger when a PR to master is closed (this can also mean closed
-# but not merged).
+# Allows triggering the workflow manually
 on:
-  pull_request:
-    branches:
-      - master
-    types: [closed]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to release'
+        required: true
 
 jobs:
   build_manifests:
-    # On a successful merge of a release branch into the master branch.
-    # NOTE: In github action expressions you need to use single quotes.
-    if: ${{ github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/') }}
     runs-on: ubuntu-latest
     outputs:
       release_version: ${{ steps.release_version.outputs.release_version }}
@@ -31,18 +28,17 @@ jobs:
           chmod 700 get_helm.sh
           ./get_helm.sh -v v3.9.0
 
-      - name: Get release version
+      - name: Set release version
         id: release_version
         run: |
-          export RELEASE_VERSION=$(echo ${{ github.head_ref }} | sed 's/release\///g')
-          echo ::set-output name=release_version::$RELEASE_VERSION
+          echo ::set-output name=release_version::${{ github.event.inputs.version }}
 
       - name: Build release
         id: build
         run: |
           TAGNAME=${RELEASE_VERSION} make -C ./services/orchest-controller manifestgen
         env:
-          RELEASE_VERSION: ${{steps.release_version.outputs.release_version}}
+          RELEASE_VERSION: ${{ github.event.inputs.version }}
 
       - uses: actions/upload-artifact@v3
         with:
@@ -55,9 +51,6 @@ jobs:
 
   trigger_release:
     needs: [build_manifests]
-    # On a successful merge of a release branch into the master branch.
-    # NOTE: In github action expressions you need to use single quotes.
-    if: ${{ github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
